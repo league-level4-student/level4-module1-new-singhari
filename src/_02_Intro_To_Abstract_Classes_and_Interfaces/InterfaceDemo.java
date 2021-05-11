@@ -1,4 +1,4 @@
-package _03_Intro_To_Abstract_Classes_and_Interfaces;
+package _02_Intro_To_Abstract_Classes_and_Interfaces;
 
 /*
  * An interface could be considered a class that is completely abstract. Like an 

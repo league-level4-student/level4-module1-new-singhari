@@ -1,4 +1,4 @@
-package _02_Gotta_Catchem_All;
+package _01_Gotta_Catchem_All;
 
 import static org.junit.jupiter.api.Assertions.*;
 

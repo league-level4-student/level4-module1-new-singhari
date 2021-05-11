@@ -1,4 +1,4 @@
-package _04_Text_Funkifier;
+package _03_Text_Funkifier;
 
 public class MixedCapsString {
 

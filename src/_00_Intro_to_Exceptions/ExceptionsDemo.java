@@ -1,4 +1,4 @@
-package _01_Intro_to_Exceptions;
+package _00_Intro_to_Exceptions;
 
 public class ExceptionsDemo {
 

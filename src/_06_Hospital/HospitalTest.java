@@ -1,4 +1,4 @@
-package _07_Hospital;
+package _06_Hospital;
 
 import static org.junit.jupiter.api.Assertions.*;
 

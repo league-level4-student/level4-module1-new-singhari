@@ -1,4 +1,4 @@
-package _06_Polymorphs;
+package _05_Polymorphs;
 
 import java.awt.Color;
 import java.awt.Dimension;

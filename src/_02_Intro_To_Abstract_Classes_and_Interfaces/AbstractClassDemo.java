@@ -1,4 +1,4 @@
-package _03_Intro_To_Abstract_Classes_and_Interfaces;
+package _02_Intro_To_Abstract_Classes_and_Interfaces;
 
 /*
  * Abstract classes are classes that can contain abstract methods and cannot be 
