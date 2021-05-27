@@ -7,7 +7,7 @@ public class ExceptionsDemo {
      * when they arise in your programs.
      */
 
-    /**
+    /*
      * The throws keyword in testFiveOrGreater lets the compiler know this
      * method could throw a method and needs a try catch block to handle it.
      */
@@ -22,12 +22,12 @@ public class ExceptionsDemo {
 
         // 1. Create a try/catch block (Hint: type "try" and ctrl + space).
 
-        /**
+        /*
          * 2. Call the testFiveOrGreater method with a value less than 5 inside
          * the try block.
          */
 
-        /**
+        /*
          * 3. Call e.printStackTrace() in the catch block. This prints out the
          * last methods called during your program's execution to the console in
          * red text.
@@ -37,7 +37,7 @@ public class ExceptionsDemo {
 
     }
 
-    /**
+    /*
      * 5. Create your own exception by making a new class called
      * NegativeNumberException that extends Exception.
      * 
@@ -46,7 +46,7 @@ public class ExceptionsDemo {
      * critical error in their computer.
      */
 
-    /**
+    /*
      * 7. Create a static method in this class called testPositive. It should
      * take a single number as a parameter and throw a NegativeNumberException
      * if that number is negative.
@@ -70,7 +70,7 @@ public class ExceptionsDemo {
      * 10. Try running the program. Did it show a pop-up?
      */
 
-    /**
+    /*
      * 11. Add a finally block after your catch block(Hint: finally{}). A
      * finally block always occurs after a try/catch block even if no exception
      * occurs.

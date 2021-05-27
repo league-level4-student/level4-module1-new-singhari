@@ -11,10 +11,14 @@ class GottaCatchemAll {
 
     /**
      * In this program you will attack code weaknesses so they can be caught by
-     * a try/catch block. Each test will present perfectly functional code that
-     * throws no exceptions. Your job is to break the code inside the try block
-     * in the way that causes all JUnit tests to pass by throwing the correct
-     * Exception.
+     * a try/catch block.
+     * 
+     * Each test will present perfectly functional code that throws no
+     * exceptions.
+     * 
+     * Your job is to break the code INSIDE the try block only (do not modify
+     * any other code) in the way that causes all JUnit tests to pass by
+     * throwing the correct Exception so it is caught by the catch block.
      */
 
     /**
@@ -101,9 +105,9 @@ class GottaCatchemAll {
         try {
 
             Random rand = new Random();
-            double dividend = rand.nextInt(9900) + 100;
-            double divisor = rand.nextInt(9900) + 100;
-            double quotient = dividend / divisor;
+            int dividend = rand.nextInt(9900) + 100;
+            int divisor = rand.nextInt(5400) + 100;
+            int quotient = dividend / divisor;
 
             System.out.println("The result of " + dividend + " divided by "
                     + divisor + " is " + quotient);

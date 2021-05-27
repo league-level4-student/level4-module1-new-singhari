@@ -2,8 +2,8 @@ package _02_Intro_To_Abstract_Classes_and_Interfaces;
 
 /*
  * An interface could be considered a class that is completely abstract. Like an 
- * abstract class it can contain abstract methods, but it is unable to contain 
- * member variables or implemented methods.
+ * abstract class it can contain abstract methods, but cannot contain member 
+ * variables or implemented methods.
  * 
  * They are most useful when you have groups of methods that are useful for 
  * providing a common functionality to other classes.

@@ -11,12 +11,13 @@ import javax.swing.JPanel;
 import javax.swing.Timer;
 
 /*
- * 1. Create new member variables for the width and height of Polymorph.
+ * 1. Create new member variables for the width and height of Polymorph then 
+ * initialize them in its constructor.
  * 
  * 2. Encapsulate the member variables of the Polymorph class. 
  * 
  * 3. Substitute the hard-coded numbers in the draw method of the BluePolymorph 
- * class with the width and height variables.
+ * class with its width and height.
  * 
  * 4. Create a new sub-class of the Polymorph class called RedPolymorph.
  * 
@@ -46,7 +47,7 @@ import javax.swing.Timer;
  * 
  * 14. Create even more Polymorph subclasses and add them to your ArrayList!
  * 
- *  a) Create a Polymorph that follows your mouse. Hint: MouseMotionListener
+ *  a) Create a Polymorph that follows your mouse. Hint: The MouseMotionListener
  *  interface.
  * 
  *  b) Create a Polymorph that displays an image. Hint: BufferedImage.

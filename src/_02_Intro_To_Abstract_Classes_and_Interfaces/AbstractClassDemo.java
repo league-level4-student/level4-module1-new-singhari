@@ -8,7 +8,7 @@ package _02_Intro_To_Abstract_Classes_and_Interfaces;
  * other classes you are using, but would not be used on its own.
  * 
  * e.g. GameObject in LeagueInvaders would have been a good candidate for an
- * abstract class for its x,y,widthm and height member variables and its draw() 
+ * abstract class for its x,y,width and height member variables and its draw() 
  * and update() methods.
  */
 
@@ -18,7 +18,7 @@ package _02_Intro_To_Abstract_Classes_and_Interfaces;
  */
 public abstract class AbstractClassDemo {
 
-    // An abstract class can still contain member variables.
+    // An abstract class can contain member variables.
     int num;
 
     /*
@@ -33,13 +33,13 @@ public abstract class AbstractClassDemo {
     public abstract void abstractDemo();
 
     /*
-     * An abstract method without a return type will only require curly brackets
-     * to be considered "implemented", but if it has a return type it also
-     * requires a return statement that returns an appropriate value.
+     * An abstract method without a void return type will only require curly
+     * brackets to be considered "implemented", but if it has a return type it
+     * also requires a return statement that returns an appropriate value.
      */
     public abstract int abstractNumDemo();
 
-    // An abstract class can still contain implemented methods.
+    // An abstract class can also still contain implemented methods.
     public void demo() {
         System.out.println("Demo");
     }
@@ -47,6 +47,6 @@ public abstract class AbstractClassDemo {
 }
 
 /*
- * 1. Create another class that extends the AbstractClassDemo class and
- * implement its methods.
+ * 1. Create a class that extends the AbstractClassDemo class and implement its
+ * methods.
  */
