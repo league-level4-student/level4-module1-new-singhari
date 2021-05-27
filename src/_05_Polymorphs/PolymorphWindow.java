@@ -45,14 +45,10 @@ import javax.swing.Timer;
  * 13. Use loops to call the draw and update method for all the Polymorphs in 
  * the list.
  * 
- * 14. Create even more Polymorph subclasses and add them to your ArrayList!
- * 
- *  a) Create a Polymorph that follows your mouse. Hint: The MouseMotionListener
+ * 14. Create a Polymorph that follows your mouse. Hint: The MouseMotionListener
  *  interface.
  * 
- *  b) Create a Polymorph that displays an image. Hint: BufferedImage.
- * 
- *  c) Create a Polymorph that displays a JOptionPane Message Dialog when
+ * 15. Create a Polymorph that displays a JOptionPane Message Dialog when
  *  clicked. Hint: MouseListener interface.
  */
 
