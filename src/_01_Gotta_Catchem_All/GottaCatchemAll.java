@@ -26,7 +26,7 @@ class GottaCatchemAll {
      * variable that is uninitialized or otherwise has a value of null.
      */
 
-    Robot rob;
+    private Robot rob;
 
     @Test
     public void testNullPointerException() {
