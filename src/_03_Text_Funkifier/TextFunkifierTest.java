@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.jupiter.api.Test;
 
-public class Text_Funkifier_Test {
+public class TextFunkifierTest {
 
     /**
      * 1. In BackwardsString implement the funkifyText method inherited from
