@@ -6,7 +6,7 @@ public abstract class Polymorph {
     int x;
     int y;
     
-    Polymorph(int x, int y){
+    public Polymorph(int x, int y){
    	 this.x = x;
    	 this.y = y;
     }
