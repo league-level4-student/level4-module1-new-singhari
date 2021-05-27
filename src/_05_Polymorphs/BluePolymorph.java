@@ -5,7 +5,7 @@ import java.awt.Graphics;
 
 public class BluePolymorph extends Polymorph{
 
-	BluePolymorph(int x, int y) {
+	public BluePolymorph(int x, int y) {
 		super(x, y);
 	}
 
