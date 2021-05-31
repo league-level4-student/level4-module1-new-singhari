@@ -32,7 +32,7 @@ import junit.framework.TestCase;
 
 public class HospitalTest extends TestCase {
 
-    Hospital testHospital = new Hospital();
+    private Hospital testHospital = new Hospital();
 
     public void testAddDoctor() {
         testHospital.addDoctor(new GeneralPractitioner());
