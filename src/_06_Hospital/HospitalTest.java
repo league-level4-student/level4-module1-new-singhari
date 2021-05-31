@@ -9,7 +9,7 @@ import java.util.List;
 import junit.framework.TestCase;
 
 /* 
- * 1. Create a Patient class capable of being cared for and having their pulse 
+ * 1. Create a Patient class capable of feeling cared for and having their pulse 
  * taken.
  * 
  * 2. Create a Doctor abstract class capable of doing medicine, holding a list 
