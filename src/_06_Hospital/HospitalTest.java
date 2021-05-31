@@ -49,14 +49,14 @@ public class HospitalTest extends TestCase {
     }
 
     public void testDoctorsHaveSpecialties() throws Exception {
-        assertEquals(false, testDoctor.getPerformsSurgery());
-
-        Doctor testSurgeon = new Surgeon();
+        
+        Surgeon testSurgeon = new Surgeon();
         assertEquals(true, testSurgeon.getPerformsSurgery());
+        assertEquals(false, testSurgeon.getMakesHouseCalls());
 
         GeneralPractitioner testGP = new GeneralPractitioner();
         assertEquals(true, testGP.getMakesHouseCalls());
-        assertEquals(false, testSurgeon.getMakesHouseCalls());
+        assertEquals(false, testGP.getPerformsSurgery());
     }
 
     public void testAssignDoctor() throws Exception {
