@@ -74,9 +74,9 @@ public class HospitalTest extends TestCase {
     // When you check a patient's pulse, they feel cared for
     public void testCheckPulse() throws Exception {
         Patient testPatient = new Patient();
-        assertEquals(false, testPatient.feelsCaredFor());
+        assertEquals(false, testPatient.getFeelsCaredFor());
         testPatient.checkPulse();
-        assertEquals(true, testPatient.feelsCaredFor());
+        assertEquals(true, testPatient.getFeelsCaredFor());
     }
 
     // Doctors work on their Patients by checking their pulses.
@@ -86,11 +86,11 @@ public class HospitalTest extends TestCase {
         Patient macky = new Patient();
         testDoctor.assignPatient(max);
         testDoctor.assignPatient(macky);
-        assertEquals(false, max.feelsCaredFor());
-        assertEquals(false, macky.feelsCaredFor());
+        assertEquals(false, max.getFeelsCaredFor());
+        assertEquals(false, macky.getFeelsCaredFor());
         testDoctor.doMedicine();
-        assertEquals(true, max.feelsCaredFor());
-        assertEquals(true, macky.feelsCaredFor());
+        assertEquals(true, max.getFeelsCaredFor());
+        assertEquals(true, macky.getFeelsCaredFor());
     }
 
     public void testDoctorsCanOnlyHandle3Patients() throws Exception {
