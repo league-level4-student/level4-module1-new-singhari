@@ -3,7 +3,7 @@ package _02_Intro_To_Abstract_Classes_and_Interfaces;
 /*
  * An interface could be considered a class that is completely abstract. Like an 
  * abstract class it can contain abstract methods, but cannot contain member 
- * variables or implemented methods.
+ * variables(with one exception) or implemented methods.
  * 
  * They are most useful when you have groups of methods that are useful for 
  * providing a common functionality to other classes.
@@ -20,6 +20,13 @@ package _02_Intro_To_Abstract_Classes_and_Interfaces;
 * special interface keyword for getting declared.
 */
 public interface InterfaceDemo {
+    
+    /*
+     * The exception to the rule of interfaces not containing member variables
+     * is that they may contain them if they have both the static and final
+     * keywords.
+     */
+    public static final int num = 2;
 
     /*
      * Similarly, the abstract keyword is not used for abstract methods in

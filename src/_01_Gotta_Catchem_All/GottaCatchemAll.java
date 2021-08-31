@@ -16,9 +16,11 @@ class GottaCatchemAll {
      * Each test will present perfectly functional code that throws no
      * exceptions.
      * 
-     * Your job is to break the code INSIDE the try block only (do not modify
-     * any other code) in the way that causes all JUnit tests to pass by
-     * throwing the correct Exception so it is caught by the catch block.
+     * Your job is to break the code inside the try blocks in a way that causes
+     * all JUnit tests to pass by throwing the correct Exception so it is caught
+     * by the catch block.
+     * 
+     * Warning: Do not modify any other code or directly throw the exception!
      */
 
     /**

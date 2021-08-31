@@ -10,13 +10,31 @@ public class ExceptionsDemo {
     /*
      * The throws keyword in testFiveOrGreater lets the compiler know this
      * method could throw a method and needs a try catch block to handle it.
+     * 
      */
+
     public static void testFiveOrGreater(int x) throws Exception {
         if (x < 5) {
             // This is where the Exception is actually thrown.
             throw new Exception();
         }
     }
+
+    /*
+     * This is also known as a checked exception. Normally these only occur when
+     * an issue outside of your code's control could occur.
+     * 
+     * You may have encountered this when trying to load images or when using
+     * Thread.Sleep to pause your program since they rely on external factors of
+     * images being where you say they are and your cpu respectively.
+     * 
+     * Many of the common exceptions you encounter such as NullPointerException
+     * or ArrayIndexOutOfBoundsException do not require a try/catch to compile
+     * your code and the issue is not noticed until runtime. Fittingly, these
+     * are referred to as run time or unchecked exceptions.
+     * 
+     * Despite this, you can still make a try/catch and attempt to catch them.
+     */
 
     public static void main(String[] args) {
 
@@ -55,11 +73,11 @@ public class ExceptionsDemo {
      * main method. Make sure your catch block can catch a
      * NegativeNumberException.
      * 
-     * Hint: You can add multiple catch blocks that each catch a unique
+     * Note: You can add multiple catch blocks that each catch a unique
      * Exception.
      * 
      * The top Exception should be the most specific and the bottom should be
-     * the most general like when using if/else if/else statements.
+     * the most general like when using if/else statements.
      * 
      * In this case, NegativeNumberException is the most specific one since it
      * extends from Exception which is capable of catching any exception.
