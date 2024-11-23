@@ -26,6 +26,7 @@ public interface InterfaceDemo {
      * is that they may contain them if they have both the static and final
      * keywords.
      */
+	
     public static final int num = 2;
 
     /*

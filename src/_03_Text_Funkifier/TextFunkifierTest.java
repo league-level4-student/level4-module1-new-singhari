@@ -28,7 +28,7 @@ public class TextFunkifierTest {
         MixedCapsString mcs = new MixedCapsString("This is also a test");
         assertEquals("tHiS Is aLsO A TeSt", mcs.funkifyText());
     }
-
+//0,1,3, 5, 9, 11, 
     /**
      * 3. Make your own class similar to the previous classes that implements
      * TextFunkifier and has a private String member variable called

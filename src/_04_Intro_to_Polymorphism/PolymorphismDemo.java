@@ -12,11 +12,17 @@ abstract class Animal {
     public void speak() {
         System.out.println("I am an animal");
     }
+    public void eat() {
+    	System.out.println("I'm eating ");
+    }
 }
 
 class Dog extends Animal {
     public void speak() {
         System.out.println("Woof!");
+    }
+    public void eat() {
+    	System.out.println("I'm eating kibble");
     }
 }
 
@@ -24,11 +30,17 @@ class Bird extends Animal {
     public void speak() {
         System.out.println("Tweet!");
     }
+    public void eat() {
+    	System.out.println("I'm eating fruit");
+    }
 }
 
 class Fish extends Animal {
     public void speak() {
         System.out.println("Gurgle Gurgle Gurgle!");
+    }
+    public void eat() {
+    	System.out.println("I'm eating other fish.");
     }
 }
 
@@ -46,8 +58,8 @@ public class PolymorphismDemo {
          * declared as an Animal on the left side.
          */
 
-        Animal animal = new Animal();
-
+        Animal animal = new Fish();
+        animal.speak();
         /*
          * 2. Call the speak method and run the program.
          * 
@@ -63,7 +75,7 @@ public class PolymorphismDemo {
          * chose, the next closest speak method in the class's inheritance was
          * called. In this case it was Animal class's version of speak.
          */
-
+        animal.eat();
         /*
          * 4. Add another method called eat to the Animal subclass you chose and
          * have it print a description of the animal eating their favorite food
